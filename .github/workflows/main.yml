@@ -1,4 +1,4 @@
-"name: Admin contributions
+name: Admin contributions
 
 on:
 
@@ -54,4 +54,4 @@ jobs:
         uses: ad-m/github-push-action@v0.8.0
         with:
           directory: "".""
-          github_token: ${{ secrets.GITHUB_TOKEN }}"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
